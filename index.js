@@ -19,7 +19,8 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Customize your bot's status by forking this."];
+const statusMessages = ["Listening to your orders.","High Quality Thumbnails/Gfx's/Banners at a fair Price","Chill Community with tons of Other Gfx Artists","We sometimes host rewarding giveaways!","We also have Interesting Events/Deals that change ALOT!"," Join Zep's Graphics today to cop yourself some fire Thumbnails!"
+];
 
 
 let currentIndex = 0;
