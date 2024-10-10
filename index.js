@@ -11,7 +11,7 @@ const client = new Client({
 const app = express();
 const port = 3000;
 app.get('/', (req, res) => {
-  res.send('YaY Your Bot Status Changed✨');
+  res.send('The bot ${client.user.tag} has sucessfully got its status changed.');
 });
 app.listen(port, () => {
   console.log(`🔗 Listening to KingOfficer : http://localhost:${port}`);
